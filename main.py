@@ -38,7 +38,8 @@ class Database:
         )
 
 
-bot = Bot(token="6397148691:AAG0QzG6dpDhGpoqETpkiwpQs2r4cWANL8w")
+PROXY_URL = "http://proxy.server:3128"
+bot = Bot(token="6397148691:AAG0QzG6dpDhGpoqETpkiwpQs2r4cWANL8w", proxy=PROXY_URL)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
