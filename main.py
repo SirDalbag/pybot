@@ -1,3 +1,5 @@
+# Telegram Bot - @VirtualReiBot
+
 import sqlite3
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
